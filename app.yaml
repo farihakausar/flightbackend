@@ -1,0 +1,9 @@
+# remove line 2 "service" whenever pushing for production mode
+# service: development
+runtime: nodejs18
+env: standard
+instance_class: F4_1G
+env_variables:
+  DB_URL: mongodb+srv://Azhan:azhan12345@cluster0.5irtpas.mongodb.net/preferental-app?retryWrites=true&w=majority
+  SEC_KEY: p801ri35792d4v6c01t5bi9o2n53210t6a78c998c7e6d5f49e0d5f9b12f3e4f
+  JWT_SECRET: p%0ri92v!0^ant#Y
